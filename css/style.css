@@ -114,7 +114,7 @@ header p{
 }
 
 .about, .method, .clients, .contact{
-  grid-column: 2 / 1;
+  grid-column-start: 2;
   grid-column-end: 3;
 
 
@@ -130,26 +130,30 @@ header p{
 }
 
 .about, .about-image{
-   grid-row: 2;
+   grid-row-start: 2;
+   grid-row-end: 3;
 
 }
 
 .method, .method-image{
-    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 
 }
 
 
 .clients, .clients-image{
-  grid-row: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 
 
 }
 
 
 .contact, .contact-image{
-  grid-row: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
 
 
 }
